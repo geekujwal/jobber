@@ -15,7 +15,6 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "67caf5bb323f88345a18a6bd",
   "plugins": [
     {
       "plugin": "@nx/webpack/plugin",
@@ -40,5 +39,6 @@
       },
       "exclude": ["apps/jobber-auth-e2e/**/*"]
     }
-  ]
+  ],
+  "nxCloudId": "67cb03a7da02295155744749"
 }
