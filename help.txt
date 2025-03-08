@@ -1,0 +1,3 @@
+nx run jobber-auth:migrate-prisma
+nx run jobber-auth:migrate-prisma -- --name users
+npx prisma migrate dev --schema apps/jobber-auth/prisma/schema.prisma --name users
